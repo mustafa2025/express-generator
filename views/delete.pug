@@ -1,0 +1,32 @@
+html(lang="en")
+head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible" content="IE=edge")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+    title= 'Day 8 Homework' 
+body 
+block content
+    p Make sure this is the book you want to delete
+    form(action="" method="post")
+        p ISBN
+        input(type="text" name="isbn" title="isbn" value=isbn disabled)
+        p Title
+        input(type="text" name="title" title="title" value=title disabled)
+        p Subtitle
+        input(type="text" name="subtitle" title="subtitle" value=subtitle disabled)
+        p Author
+        input(type="text" name="author" title="author" value=author disabled)
+        p Publisher
+        input(type="text" name="publisher" title="publisher" value=publisher disabled)
+        p Published
+        input(type="text" name="published" title="published" value=published disabled)
+        p Pages
+        input(type="text" name="pages" title="pages" value=pages disabled)
+        p Description
+        input(type="text" name="description" title="description" value=description disabled)
+        p Website
+        input(type="text" name="website" title="website" value=website disabled)
+        br
+        br
+        button(type="submit") Delete

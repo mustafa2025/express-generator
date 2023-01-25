@@ -1,0 +1,32 @@
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(http-equiv="X-UA-Compatible" content="IE=edge")
+  meta(name="viewport" content="width=device-width, initial-scale=1.0")
+
+  title= 'Day 8 Homework' 
+body 
+block content
+  p Enter Information To Be Updated
+  form(action="" method="post")
+    p ISBN
+    input(type="text" name="isbn" title="isbn" required)
+    p Title
+    input(type="text" name="title" title="title" required)
+    p Subtitle
+    input(type="text" name="subtitle" title="subtitle" required)
+    p Author
+    input(type="text" name="author" title="author" required)
+    p Publisher
+    input(type="text" name="publisher" title="publisher" required)
+    p Published
+    input(type="text" name="published" title="published" required)
+    p Pages
+    input(type="text" name="pages" title="pages" required)
+    p Description
+    input(type="text" name="description" title="description" required)
+    p Website
+    input(type="text" name="website" title="website" required)
+    br
+    br
+    button(type="submit") Submit
