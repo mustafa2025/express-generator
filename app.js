@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use("/", indexRouter);
+app.use("/", booksRouter);
 app.use("/books", booksRouter);
 
 // catch 404 and forward to error handler
@@ -38,5 +38,5 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
-app.listen(3000);
+app.listen(3001);
 module.exports = app;
